@@ -1,0 +1,77 @@
+.header{
+    
+    display: flex;
+    
+    padding: 1% 0% 1% 0%;
+  
+
+}
+
+
+    .navbar-brand{
+        color: white;
+        font-family: Cookie;
+        font-size: 500%;
+        padding-left: 3%;
+
+        
+    }
+
+    .navbar-brand:hover{
+        color: white
+    }
+    
+    .navbar-nav{
+        padding-left: 40%;
+    }
+
+    
+
+    .nav-link:link{
+        text-decoration: none;
+    }
+
+    .nav-link:hover{
+        color: aqua;
+    }
+
+    .nav-link:visited{
+        color: aliceblue;
+    }
+
+
+
+
+.nav-link{
+    align-items: center;
+    justify-content: center;
+    // width: 100%;
+    padding-left: 80px !important;
+    font-size: 1.25rem;
+    color: white;
+    
+
+}
+
+.item{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.navbar-toggler{
+    background-color: #452c63;
+}
+
+
+$small:600px;
+
+@media screen and (max-width:$small){
+    .nav-link{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
